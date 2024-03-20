@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>R story</title>
+    <url>/2023-05-08-R-story/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="74e7ac25846378c4064cc5f7a9d98173c8b23d70776593be5857f36b1d7fb05c">7101c09bfa547786a7ea7678592aad1ee9fcd7dd18bac70dfbd5b54b5ae849217dfddf2f11447f652e73861a6619713e7ad785392c64706de2ffb4d142d5da0ce083aa9655e69eb2a494db63a8fb279a58d5664e46f4c523ae483142db7fae3a944475979c1dab8a91c3aab41ed9288b3a736f1e252d269d920fa953e05f6678053cdc5b32d21dd065b2eeb2420bf884ef2580536415b458d8adb9dae21f209a30df0ce17e976d8a3b8e1a1a4a8dc8a8c2d9d49ca8ada3cabe65ebb32ae12994d80aee9128d3ab30c0173cc147505120d6f1face1af93ddaf37ecec1fbebd30c9f7c2190cb2a7e8666eeca767ddf2ac93deefaae29044f59d34efcfe01120299921a259ece5c2c52d7235716258d47254f5fe74e747d20b6cce395d6333dc57510ab876e9d25c4603ead6d0d39fadd71a06f8c87611271333bd2cc6baada67ff011844ffc57d677d9dbccc6dac2f0cf758c7a9ab3bbb69fdca1b82f7a99f0eb760469b9d05effc9533300ed680ac898808dc728e128279bbed8843077698c78829bfaab0316769f5799f5853e02c7f0309d84a2d0e35fdc59c9abbd5e5487e5e0381054d6c2c73b3121e2845e4c18970155e733686d4b22321546a26ea1b16b8a11cac728b298380a9d434123c9dd016571705e689e7ba53c4aba96baf8399a5870280feb1b250d2ce3a1ec7db590ed7c8f67e99b2ceed51ae6789a5c9b9f8e0c34a1855a3a6c838235f5984ac4b462612fe79e7d3ef023bbb92d08c8bf2ee3f71075f74e9144456fbcc893f0fb5f298731c481bed719a1b473fa0c6d94ba79426b1268e04a62f90e1b00b8c9c846bd7fccf1a16730fec47c90910aef9a94013e68d207c587c9730ce4ac277b8c4e83479ca57404b5ed0dc2612f3170ebead20565c91f8c3553b8547f50f8f10aeb6534103ce782db0abc58bfb0d9ef98fef77</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First Day</title>
+    <url>/2023-05-06-hello-world/</url>
+    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
+<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>这样就可以在网上浏览自己的博客了！</p>
+]]></content>
+      <categories>
+        <category>hexo配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>orgrinal</title>
+    <url>/2023-05-07-orgrinal/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="456ac8a3118b09fe4058fc6f66042560fa70dc783b8c2fd0984926d76cb14e56">7101c09bfa547786a7ea7678592aad1eb75af43f96aea857bea33b86f2abc0e6712f6d5c9b2b5a078a6abb0f59d59d487b0eb173031be6718e1b1129aff0e23fa7091b8b0ebdd010b9895b48f8959bad1f385825bfe6a288924c8faadaf12e909b840e41ed396d60142b45d37bf9472fc2d3dd1047c6109924885cfa62cf71ab94bfe43b42002ccd15e1be741eb21abdb5945755cd715067f0a7f6c4d91fa468656b41eb2c8efb64e2f668bc568866bb3dde1a0cc1f372bb6a2a9683bc4e10587c008e67f351a7f70dc33cbf869c2bd225a8c56b87f3074da67dd0e8f765bcbb90f5789e24728dfe719dbfb0ba0cf45c161a2868ecb5087ea641bbce58a25fa01bb8df467ab687131337266faa30813f4378455514c79cfcd9a246786d0367372c4b302050dab3e7ffbc17d43ce77bb4aa56e46f24807d9d815f003f37f0cf57dfe80dd55dbed373278607f85160d8f6142fa6a4380fcdebbe3993966ceb3e5a9017ed8b984c31def68ea75af3bab2fae7dea944128d7c3ca6f578426dd8282aad4bb09d977b717d59de1c064229cf7591656a61404d17ea0de1848774dbf394b3283ad58957831dd028435409611c191e99610e2f1dae4403384a73526b5205542366fb45b2621c5c216d8e9578543f5c40afed5a5b0c5b287fa2e25d6c17c72672e9fb6c85e29e83633c0522ca78de31e1f656e5035b7911452f6cd3a0c70135b8d598167820440c4cfdfe9ccbd715b896d38692e9097a3a86c61c754a7bbf4f9ffb92cefdd3206e6f50e37ebbcc0bd4d54b053cb6948aa8348de30d1ce13fcb57179c80a1c2eff26d6bfc9f48c12e4e669ba00f5058f5492a623c9c4953a21111648a9266e8f924fd7ccb68bc91b27d53645bf05f4bac2fdf54f7669575d443ff0405e0c5edf6b5bbed3ddd2b58e891287a58b84615b1ce649a00d2398e77d95d44e985ff497c7903226c8a64205ba00dc0817a3ff201cddee27f7427bc020ee01d3b453821b28b1da75a21423faa53bb7dcc09f3cba6bf695ec2983aeb390f7a5fa1b5ed1d5dc68f62439199809efd453e05759aeec641151e60a1512797c526ae5235ec1e0cada670006ad5eb87b7cdec917b70755d6287b8ae346dfe672249a7aca3bdc252694fa0341476c3cee99c591a83794263ddcf238e1794cbfb8028dc517686cf134077e794cfbaaae96bc941d5e54b3f29475a6ce713ac5efbc4dabd03d2fdeabb0d0c7057ef89dfd848df59dd7458fb6eedb24a346f8cab1e675faabcacdbadb299a0fc70cce5655081357a08b82c725b0f2cf210a92b63bb247c983d11970e67336aad977cf6bdcfdbbf4a0cf6193cffecf62f01b1c1f34d86f0a4d708d12c8b05f1077452b32d2291943ef6efee386849d3dbd6f6b01c4194e52da14f4e0a3161a69fd4d920d562a0fb9374415dfe23314fd4873ed008dc14a832218161a4859afd55a9b6c384df0a4c921aa38b255eb29b7576c706fe3b43f2529c7b5f33b149dbe21cab9d11b18fd9596830bc6019c4a3169880aeb13b0b06ddbe61eb08db7a26d5d38c36b96e1f5073ec134d04b6dc1c3fe16563e5a35a502e67854bc667f264129727a1bbfe093593e492ab588313d1f1096e5cf26841059aad7ba9e2ea69168a9c1a511747e858554738acc43150407bf88c026063bd5f5b4a727ba2d9a3357880044ea80ef1ff41a65f6948043def414579796cacafeb7b0f418117ef7ea702b98efbaf3121381a5a14b4511c9adb4021248fef20572e8ae22a9390c2cede1446e953a5b05e465bce4a1d22adece240c669f710b6d1aa9350c2d8c98a5e64810aec7545e251c3eef256cc21381e9550b1e2528e5c4a0f268dfdce9568f207b6272c1b0ad843fd2459cae33b78c5cd78cd7c86d561e6b4c9ca3fc062f5796d4ef5ceb3de8c72291d3679d20b74407ddc46fa39d0f67204d4bf66c1ef08158e1cbcc9575ba1e4f0252d6d5b962f28e93306bcfe455bd2985baa6ed4357d778212e6639d463afddcb06191ea9b8800aa31661c7d8308caa946b96125cc7d006c2e23382f68afac407615af2d1356dc1746969f7731f484c190b0953e9fac773ca2ac4a655ab045c90b08e3dd666123e62c4416a7d192b09082dd7014e97896bb5a3b9e59f59f3ec236ef2ddeb141be8bd902c0b8627898a20e23cf28d5a9e2fb59957dabba637203668272809f2dbdf4dd170b8c68c7b388311a6c7b7b3522a5e6ad0d0f3ac2e353cbb08043b9de80b70c387b15b8ea3596378024c7d11d551c7ab189b7add982618f02e447aad8d8d9ebe7de9713d9770c9d158153397dfe8640d625d764d18abba5600daa358387e3b979d146a8d664247761e4a2931dd490e5e18d4a93086fc4bf2986a56023fe2ab2f0163ebb4c0fdd7051258330c7039a37e1c13e0d2ca2a6ff4210b35fd9bc18b0f4dae961f6f11203c01111e664ec94f0b42e0698b382e1185bf82ff5d6b7871898dd570cb353dd97679beb0b88512c6fc7da6e91b2a1e082ef6016ac06b8d17e6117d65a636a3f8f6fc07da7b8fe0b0c426abc781c420fa561058cc1c71d83d9f5c1a4fbe36c5257c14d1044e642a5ff2f20832165e4ff9ecb46b1ff8bab792a1a8f6d20f1ce02e653d6f28f35e18a83b141be36f1292a4841ca64326798f33facf84e2d7d83a6ae93ab444debb3e536cbcb75bc016f8a055f7407402f62377ded01e07d05fe92c13dcec0bfe977c49e4d62c76d187244c921d0cf68e1ffe1b8b0201726b5d0831252412a6cb6f9088b387d3b55b965f5895e5fb111dcf3260b12ee8c35294d25898e8fa3b46dee2252c39a7ecd04ecefb8551414a3cdad94c4037e6dc1b5c4c4abf3192328a733df030bd6c3142d9c93f91fd51f2d82b323e25694ffd593356cf672cd81020397db6aedc5c17b6592200b5d34a84d5f85fd3b026bf3135dfe17cbdab72fe2e27f9627c407d9ef0b398bd4781926520f63151739b303b1a919715f6f3cc52582ab8d43be0957f9a04422e66ae5d62931dc81d9c2fb62520dc73873b89c6c2c8399b281ea469b25b16ab1ca92d1c90c3117bd46401e66a9848da0cf1f925dd5e8c49bfaa0ebdacf145fa591def012390fec3044490d6a95df5c099501e6439eea2c477181ec7ba54d506ee540f5fcf01e48b32e9bb572eab67f73c5b4aea49b677720c123e5faa922b07e777c45ced22eb17eaac66ea0169adf2600933fd06125c4ba25e6a68665ba07f99fca051523a315c36eaad27d02e91f97ba2cbfa1fa44868116f62dd011e0751d3b94bd84de868bafb4f5fbe655c8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024-03-19-Redis%E5%8F%98%E6%85%A2%E7%9A%84%E5%9B%A0%E7%B4%A0/</url>
+    <content><![CDATA[<h1 id="Redis变慢的因素"><a href="#Redis变慢的因素" class="headerlink" title="Redis变慢的因素"></a>Redis变慢的因素</h1><h2 id="1-使用复杂度过高的命令"><a href="#1-使用复杂度过高的命令" class="headerlink" title="1.使用复杂度过高的命令"></a>1.使用复杂度过高的命令</h2><h3 id="查看Redis的慢日志（slowlog）"><a href="#查看Redis的慢日志（slowlog）" class="headerlink" title="查看Redis的慢日志（slowlog）"></a>查看Redis的慢日志（slowlog）</h3><p>设置慢日志的阈值</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#命令执行耗时超过5毫秒，记录慢日志</span><br><span class="line">config set slowlog-log-slower-than 5000</span><br><span class="line">#只保留最近500条慢日志</span><br><span class="line">config set slowlog-max-len</span><br></pre></td></tr></table></figure>
+
+<p>查看Redis慢日志</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">slowlog get 5</span><br></pre></td></tr></table></figure>
+
+<h3 id="导致操作延迟变大的原因："><a href="#导致操作延迟变大的原因：" class="headerlink" title="导致操作延迟变大的原因："></a>导致操作延迟变大的原因：</h3><p>1.经常使用O(N)以上复杂度的命令，例如sort,sunion,zunionstore聚合类命令。</p>
+<p>2.使用O(N)复杂度的命令，但N的值非常大。</p>
+<p>第一种情况的原因：Redis在操作内存数据时，时间复杂度过高，要花费更多的cpu资源。</p>
+<p>第二种情况的原因：Redis一次返回给客户端的数据过多，更多时间花费在数据协议的组装和网络运输过程中。</p>
+<h3 id="优化的方法："><a href="#优化的方法：" class="headerlink" title="优化的方法："></a>优化的方法：</h3><ol>
+<li><p>尽量不使用O(N)以上负责度过高的命令，对于数据的聚合操作，放在客户端做。</p>
+</li>
+<li><p>执行O(N)命令，保证N尽量的小（推荐N &lt;&#x3D; 300）,每次获取尽量少的数据，让Redis可以及时处理返回。</p>
+</li>
+</ol>
+<h2 id="2-操作bigkey"><a href="#2-操作bigkey" class="headerlink" title="2.操作bigkey"></a>2.操作bigkey</h2><p>如果一个key写入的value非常大，那么Redis在分配内存时就会比较耗时。同样删除这个key时，释放内存也会比较耗时，那么称这种类型的key为bigkey。</p>
+<h3 id="扫描出实例中bigkey的分布情况："><a href="#扫描出实例中bigkey的分布情况：" class="headerlink" title="扫描出实例中bigkey的分布情况："></a>扫描出实例中bigkey的分布情况：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">redis-cli -h 127.0.0.1 -p 6379 --bigkeys -i 0.01</span><br></pre></td></tr></table></figure>
+
+<h3 id="执行这个命令时，要注意2个问题："><a href="#执行这个命令时，要注意2个问题：" class="headerlink" title="执行这个命令时，要注意2个问题："></a>执行这个命令时，要注意2个问题：</h3><ul>
+<li><p>对线上实例进行bigkey扫描时，Redis 的OPS会突增，为了降低扫描过程中对Redis的影响，最好控制一下扫描的频率，指定-i参数即可，它表示扫描过程中每次扫描后休息的时间间隔，单位是秒</p>
+</li>
+<li><p>扫描结果中，对于容器类型（List、Hash、Set、Zset）的key，只能扫描出元素最多的key。但一个key的元素多，不一定占用的内存也多，还需要根据业务情况，进一步评估内存占用情况。</p>
+<h3 id="优化的方法：-1"><a href="#优化的方法：-1" class="headerlink" title="优化的方法："></a>优化的方法：</h3><ul>
+<li><p>业务应用尽量避免写入bigkey</p>
+</li>
+<li><p>如果使用的是Redis4.0以上的版本，用UNLINK命令替代DEL，此命令可以释放key内存的操作，放到后台线程中去执行，从而降低对Redis的影响</p>
+</li>
+<li><p>如果使用的是Redis6.1以上的版本，可以开启lazy-free机制（lazyfree-lazy-user-del &#x3D; yes），在执行DEL命令时，释放内存也会放到后台线程中执行</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-集中过期"><a href="#3-集中过期" class="headerlink" title="3.集中过期"></a>3.集中过期</h2><p>如果有大量的key在某个固定时间点集中过期，在这个时间点访问Redis时，就会可能导致延时变大。</p>
+<h3 id="Redis的过期策略："><a href="#Redis的过期策略：" class="headerlink" title="Redis的过期策略："></a>Redis的过期策略：</h3><p>Redis的过期数据采用被动过期+主动过期两种策略：</p>
+<ul>
+<li><p>被动过期：只有当访问某个key时，才判断这个key是否已过期，如果哦已过期，则从实例中删除。</p>
+</li>
+<li><p>主动过期：Redis内部维护了一个定时任务，默认每隔100毫秒（1秒10次）就会从全局的过期哈希表中随机取出20个key，然后删除其中过期的key，如果过期key的比例超过了25%，则继续重复此过程，直到过期key的比例下降到25%一下，或者这次任务的执行耗时超过了25毫秒，才会退出循环。</p>
+<p><strong>主动过期key的定时任务，是在Redis主线程中执行的。</strong>也就是说如果在执行主动过期的过程中，出现了需要大量删除过期key的情况，那么此时应用程序在访问Redis时，必须要等到这个过期任务执行结束，Redis才可以服务这个客服端请求。那么这个时候就会出现应用访问Redis延时变大。</p>
+<p>因为慢日志只记录一个命令真正操作内存数据的耗时，而Redis主动删除过期key的逻辑，是在命令真正执行之前执行的，此时会看到<strong>慢日志没有操作耗时的命令，但我们的应用程序却感知到了延迟变大，其实时间都花费在了删除过期key上</strong>。</p>
+<h3 id="如何分析和排除这种情况？"><a href="#如何分析和排除这种情况？" class="headerlink" title="如何分析和排除这种情况？"></a>如何分析和排除这种情况？</h3><p>一般集中过期使用的是expireat&#x2F;pexireat命令，只需要在代码中搜索这个关键字。</p>
+<p>排除代码之后，如果确实存在集中过期key的逻辑存在，但这种逻辑又是业务所必须的，那此时如何优化，同时又不对Redis有性能影响呢？</p>
+<h3 id="规避这个问题的方法"><a href="#规避这个问题的方法" class="headerlink" title="规避这个问题的方法"></a>规避这个问题的方法</h3><ul>
+<li><p>集中过期key增加一个随机过期时间，把集中过期的时间打散，降低Redis清理过期key的压力。</p>
+</li>
+<li><p>如果使用的Redis4.0以上的版本，可以开启lazy-free机制，当删除过期key时，把释放内存的操作放到后台线程中执行，避免阻塞主线程。</p>
+<p>第一个方案，在设置key的过期时间时，增加一个随机时间。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-实例内存到达上限"><a href="#4-实例内存到达上限" class="headerlink" title="4.实例内存到达上限"></a>4.实例内存到达上限</h2><p>Redis内存达到maxmemory后，每次写入新的数据之前，Redis必须先从实例中踢出一部分数据，让整个实例的内存维持在maxmemory之下，然后才能把新数据写进来。</p>
+<p>踢出旧数据的逻辑也是需要消耗时间的，而具体耗时的长短，要取决于你配置的<strong>淘汰策略</strong>：</p>
+<ul>
+<li><p><code>allkeys-lru</code>：不管key是否设置了过期，淘汰最近最少访问的key</p>
+</li>
+<li><p><code>volatitle-lru</code>：只淘汰最近最少访问，并设置了过期时间的key</p>
+</li>
+<li><p><code>allkeys-random</code>：不管key是否设置了过期，随机淘汰key</p>
+</li>
+<li><p><code>volatitle-random</code>：只随机淘汰设置了过期时间的key</p>
+</li>
+<li><p><code>allkeys-ttl</code>：不管key是否设置了过期，淘汰即将过期的key</p>
+</li>
+<li><p><code>noeviction</code>：不淘汰任何key，实例内存达到maxmemory后，再写入新数据直接放回错误</p>
+</li>
+<li><p><code>allkeys-lfu</code>：不管key是否设置了过期，淘汰访问频率最低的key（4.0+版本支持）</p>
+</li>
+<li><p><code>volatile-lfu</code>：只淘汰访问频率最低，并设置了过期时间key（4.0+版本支持）</p>
+<h3 id="优化建议："><a href="#优化建议：" class="headerlink" title="优化建议："></a>优化建议：</h3><ul>
+<li><p>避免存储bigkey，降低释放内存耗时</p>
+</li>
+<li><p>淘汰策略改为随机淘汰，随机淘汰比LRU要快很多（视业务情况调整）</p>
+</li>
+<li><p>拆分实例，把淘汰key的压力分摊到多个实例上</p>
+</li>
+<li><p>如果使用的是Redis4.0以上版本，开启lazy-free机制，把淘汰key释放内存的操作放在后台线程中使用（配置lazyfree-lazy-eviction &#x3D; yes）</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-fork耗时严重"><a href="#5-fork耗时严重" class="headerlink" title="5.fork耗时严重"></a>5.fork耗时严重</h2><p>当Redis开启了后台RDB和AOF rewirte后，在执行时，它们都需要主进程创建一个子进程进行数据的持久化。主进程创建子进程，会调用操作系统提供的fork函数，在fork执行过程中，主进程需要拷贝自己的内存页表给子进程，如果这个实例很大，那么这个拷贝的过程也会比较耗时，而且也会消耗大量的cpu资源，在完成fork之前，整个Redis实例会被阻塞住，无法处理任何客户端请求。</p>
+<p>如何确认就是因为fork耗时导致的Redis延迟变大？</p>
+<p>在Redis上执行INFO命令，</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 上一次fork耗时，单位微秒</span><br><span class="line"></span><br><span class="line">lastest_fork_usuc:59477</span><br></pre></td></tr></table></figure>
+
+<p>这个时间就是主进程在fork子进程期间，整个实例阻塞无法处理客户端请求的时间。</p>
+<h3 id="优化方案："><a href="#优化方案：" class="headerlink" title="优化方案："></a>优化方案：</h3><ul>
+<li><p>控制Redis实例的内存：尽量在10G以下，执行fork的耗时与实例大小有关，实例越大，耗时越久</p>
+</li>
+<li><p>合理配置数据持久化策略：在slave节点执行RDB备份，推荐在低峰期执行，而对于丢失数据不敏感的业务（例如把Redis当做纯缓存使用），可以关闭AOF和AOF wirte</p>
+</li>
+<li><p>Redis实例不要部署在虚拟机上：fork的耗时也于系统有关，虚拟机比物理机耗时更久</p>
+</li>
+<li><p>降低主从库全量同步的概率：适当调大repl-backlog-size参数，避免主从全量同步</p>
+</li>
+</ul>
+<h2 id="6-开启内存大页"><a href="#6-开启内存大页" class="headerlink" title="6.开启内存大页"></a>6.开启内存大页</h2><p>应用程序向操作系统申请内存时，是按内存页进行申请的，而常规的内存页大小是4KB，linux内核从2.6.38开始，支持内存大页机制，该机制允许应用程序以2MB大小为单位，向操作系统申请内存。应用系统每次申请的内存单位变大了，但这也意味着内存的耗时变长。</p>
+<h3 id="对Redis的影响："><a href="#对Redis的影响：" class="headerlink" title="对Redis的影响："></a>对Redis的影响：</h3><p>当Redis在执行后台RDB和AOF rewrite时，采用fork子进程的方式来处理。但主进程fork子进程后，此时的主进程依旧是可以接收写请求的，而进来的写请求，会采用Copy On Write(写时复制)的方式操作内存数据。也就是说，主进程一旦有数据需要修改，Redis并不会直接修改现有内存中的数据，而是先将这块内存数据拷贝出来，再修改这块新内存的数据，这就是所谓的写时负责。</p>
+<p>这样做的好处是，父进程有任何写操作，并不会影响子进程的数据持久化（子进程只持久化fork这一瞬间整个实例中订单所有数据即可，不关心新的数据变更，因为子进程只需要一份内存快照，然后持久化到磁盘上）。</p>
+<p><strong>主进程在拷贝内存数据时，这个阶段就涉及到新内存的申请，如果此时操作系统开启了内存大页，那么在此期间，客户端即便只修改了10B的数据，Redis在申请内存时也会以2MB为单位向操作系统申请，申请内存的耗时变长，进而导致每个写请求的延迟增加，影响到Redis性能</strong></p>
+<h3 id="如何解决这个问题："><a href="#如何解决这个问题：" class="headerlink" title="如何解决这个问题："></a>如何解决这个问题：</h3><p>关闭内存大页机制，内存大页的优势是可以在一定程度上降低应用程序申请内存的次数。但对于Redis这种对性能和延迟机器敏感的数据库来说，我们希望Redis在每次申请内存时，耗时尽量短，所以不建议在Redis机器上开启这个机制。</p>
+<h2 id="7-开启AOF"><a href="#7-开启AOF" class="headerlink" title="7.开启AOF"></a>7.开启AOF</h2><p>当Redis开启AOF后，其工作原理如下：</p>
+<ul>
+<li>Redis执行写命令后，把这个命令写入到AOF文件内存中（write系统调用）</li>
+<li>Redis根据配置的AOF刷盘策略，把AOF内存数据刷到磁盘上（fsync系统调用）</li>
+</ul>
+<p>为了保证AOF文件数据的安全性，Redis提供了三种<strong>刷盘机制</strong>：</p>
+<ul>
+<li><strong>appendfsync always</strong>：主线程每次执行写操作后立即刷盘，此方案会占用比较大的磁盘IO资源，但数据安全性最高</li>
+<li><strong>appendfsync no</strong>：主线程每次写操作只写内存就返回，内存数据什么时候哦刷到磁盘，交由操作系统决定，此方案对性能影响最小，但数据安全性最低，Redis宕机时丢失的数据取决于操作系统刷盘时机</li>
+<li><strong>appendfsync everysec</strong>：主线程每次写操作只写内存就返回，然后由后台线程每隔一秒执行一次刷盘操作（触发fsync系统调用），此方案对性能影响相对较小，但当Redis宕机时会丢失1s的数据。</li>
+</ul>
+<p>第一种机制，操作磁盘要比操作内存慢几百倍，采用这个配置会严重拖慢Redis的性能，不建议将AOF刷盘方式设置为always。</p>
+<p>第二种机制，此方案对Redis的性能影响最小，但当Redis宕机时，会丢失一部分数据，为了数据的安全性，一般我们也不采取这种配置。如果Redis只用作纯缓存，对于数据丢失不敏感，采用配置</p>
+<p>第三种，这种方案既兼顾了性能，又尽可能保证了数据安全。但是还是会存在使Redis延迟变大的情况发生，甚至会阻塞整个Redis。</p>
+<p>当Redis后台线程在执行AOF文件刷盘时，如果此时磁盘IO负载很高，那这个后台线程在执行刷盘操作（fsync系统调用）时就会被阻塞住。此时的的主线程依旧会接收写请求，紧接着，主线程又需要把数据写到文件内存中（write系统调用），但此时的后台子线程由于磁盘负载过高，导致fsync发生阻塞，迟迟不能返回，那主线程在执行write系统调用时，也会被阻塞住，直到后台线程fsync执行完成后，主线程执行write才能成功返回。</p>
+<p>尽管AOF配置为appendfsync everysec，也不能掉以轻心，要警惕磁盘压力过大导致的Redis有性能问题。那么什么情况下会导致磁盘IO负载过大？以及如何解决这个问题？</p>
+<ul>
+<li><p>子进程正在执行AOF rewrite，这个过程会占用大量的磁盘IO资源</p>
+</li>
+<li><p>有其他应用程序在执行大量的写文件操作，也会占用磁盘IO资源</p>
+<p>出现情况1这种问题的原因在于Redis的AOF后台子线程刷盘操作，撞上了子进程AOF rewrite！Redis提供了一个配置项，当子进程在AOF rewrite期间，可以让后台子线程不执行刷盘（不触发fsync系统系统调用）操作，这就相当于在AOF rewrite期间，临时把appendfsync设置为了none，配置如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># AOF rewrite期间，AOF 后台子线程不进行刷盘操作</span><br><span class="line"># 相当于在这期间，临时把sppendfsync设置为了none</span><br><span class="line">no-appendfsync-on-rewrite</span><br></pre></td></tr></table></figure>
+
+<p>开启这个配置项，在AOF rewrite期间，如果发生实例宕机，那么此时会丢失更多的数据，性能和数据安全性，需要权衡后进行选择。</p>
+<p>如果占用磁盘资源的是其他应用软件，则需要定位到哪个应用软件在大量写磁盘，然后把这个应用程序迁移到其他机器上执行就好了，避免对Redis产生影响。</p>
+<p>如果对Redis的性能和数据安全都有很高的要求，那么建议从硬件层面来优化，更换为SSD磁盘，提高磁盘的IO能力，保证AOF期间有充足的磁盘资源可以使用。</p>
+</li>
+</ul>
+<h2 id="8-绑定cpu"><a href="#8-绑定cpu" class="headerlink" title="8.绑定cpu"></a>8.绑定cpu</h2><p>在部署服务时，为了提高服务性能，降低应用程序在多个CPU核心之间的上下文切换带来的性能损耗，通常采用的方案是进程绑定CPU的方式提高性能。</p>
+<p>Redis在绑定CPU时，若不了解Redis的运行原理，随意绑定CPU不仅不会提高性能，有可能适得其反。</p>
+<p>一般现代的服务器会有多个CPU，而每个CPU又包含多个物理核心，每个物理核心又分为多个逻辑核心，每个物理核下的逻辑核共用L1&#x2F;L2 Cache。</p>
+<p>而Redis Server除了主线程服务客户端请求之外，还会创建子进程，子线程。其中子进程用于数据持久化，而子线程用于执行一些比较耗时操作，例如异步释放fd，异步AOF刷盘，异步lazy-free等等。</p>
+<p>如果把Redis进程只绑定在一个CPU逻辑核心上，那么当Redis在进行数据持久化时，fork出的子进程会继承父进程的CPU使用偏好。而此时的子进程会消耗大量的CPU资源进行数据持久化（把实例数据全部扫描出来需要耗费CPU），这就会导致子进程会与主进程发生CPU争抢，进而影响到主进程服务端请求，访问延迟变大。</p>
+<p>这就是Redis绑定CPU带来的性能问题。</p>
+<h3 id="如何解决这个问题？"><a href="#如何解决这个问题？" class="headerlink" title="如何解决这个问题？"></a>如何解决这个问题？</h3><p>如果确实想要绑定CPU，可以优化的方案是，不要让Redis进程只绑定在一个CPU逻辑核上，而是绑定在多个逻辑核心上，而且，绑定的多个逻辑核心最好是同一个物理核心，这样他们还可以共用L1&#x2F;L2 Cache。</p>
+<p>当然，即便我们把Redis绑定在多个逻辑核心上，也只能在一定程度上缓解主线程、子进程、后台线程在CPU资源上的竞争。因为这些子进程、子线程还是会在这多个逻辑核心上进行切换，存在性能损耗。</p>
+<h3 id="如何再进一步优化？"><a href="#如何再进一步优化？" class="headerlink" title="如何再进一步优化？"></a>如何再进一步优化？</h3><p>可以让主线程、子进程、后台线程，分别绑定在固定的CPU核心上，不让它们来回切换，这样，它们各自使用的CPU资源互不影响。</p>
+<p>Redis在6.0版本已经推出了这个功能，我们可以通过一下配置，对主线程，后台线程，后台RDB进程、AOF rewrite进程，绑定固定的CPU逻辑核心：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Redis Service 和 IO 线程绑定到 CPU 核心 0，2,4,6</span><br><span class="line">server_cpulist 0-7:2</span><br><span class="line"># 后台子线程绑定到 CPU 核心 1,3</span><br><span class="line">bio_cpilist 1,3</span><br><span class="line"># 后台 AOF rewrite 进程绑定到CPU核心 8，9,10,11</span><br><span class="line">bio_rewrite_cpulist 8-11</span><br><span class="line"># 后台 RDB 进程绑定 CPU 核心 1,10,11</span><br><span class="line"># bgsave_cpulist 1,10-1</span><br></pre></td></tr></table></figure>
+
+<p>一般来说，Redis的性能已经足够优秀了，除非你对Redis的性能有更加严苛的要求，否则不建议你绑定CPU。</p>
+<h2 id="9-使用Swap"><a href="#9-使用Swap" class="headerlink" title="9.使用Swap"></a>9.使用Swap</h2><p>如果Redis突然变得非常慢，<strong>每次的操作耗时都达到了几百毫秒甚至秒级</strong>，这时需要检查Redis是否使用到了Swap，在这种情况下Redis基本无法提供高性能的服务了。</p>
+<p>什么是Swap？为什么使用Swap会导致Redis的性能下降？</p>
+<p>操作系统允许把一部分内存中的数据换到磁盘上去，以达到应用程序对内存使用的缓冲，这些内存数据被换到磁盘上的区域，就是Swap。</p>
+<p>问题就在于，当内存中的数据被换到磁盘上后，Redis在访问这些数据时，就需要从磁盘上读取，访问磁盘的速度要比访问内存慢几百倍！</p>
+<p>可以通过一下方式查看Redis进程是否使用到了Swap：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 先找到 Redis 的进程 ID</span><br><span class="line">$ ps -aux | grep redis-server</span><br><span class="line"># 查看 Redis Swap 使用情况</span><br><span class="line">$ cat /proc/$pid/smaps | egrep &#x27;^(Swap|Size)&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>这个结果会列出Redis进程的内存使用情况。</p>
+<p>每一行Size表示Redis所用的一块内存大小，Size下面的Swap就表示这块Size大小的内存有多少数据已经被换到磁盘上了，如果这两个值相等，说这块内存的数据已经完全被换到磁盘上了。</p>
+<p>如果是几百兆甚至上GB的内存被换到磁盘上，那么这种情况Redis的性能肯定会急剧下降</p>
+<h3 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h3><ul>
+<li>增加机器的内存，让Redis有足够的内存可以使用</li>
+<li>整理内存空间，释放足够的内存供Redis使用，然后释放Redis的Swap，让Redis重新使用内存。</li>
+</ul>
+<p>释放Redis的Swap过程通常需要重启实例，为了避免重启实例对业务的影响，一般会先进行主从切换，然后释放旧主节点的Swap，重启旧主节点实例，待从库数据同步完成后，再进行主从切换即可。</p>
+<p>可见，当Redis使用到Swap后，此时的Redis性能基本已达不到高性能的要求，可以通过对Rrdis机器的内存和Swap使用情况进行监控，在内存不足或使用到Swap时报警出来，及时出来</p>
+<h2 id="10-碎片整理"><a href="#10-碎片整理" class="headerlink" title="10.碎片整理"></a>10.碎片整理</h2><p>Redis的数据都存储在内存中，当我们的应用程序频繁修改Redis中的数据时，就可能会导致Redis产生内部碎片。</p>
+<h3 id="解决方案：-1"><a href="#解决方案：-1" class="headerlink" title="解决方案："></a>解决方案：</h3><ul>
+<li><p>如果使用的是Redis4.0以下版本，只能通过重启实例来解决</p>
+</li>
+<li><p>如果使用的是Redis4.0版本，它正好提供了自动碎片整理的功能，可以通过配置开启碎片自动</p>
+<p>但是开启内存碎片整理，它有可能导致Redis性能下降。</p>
+</li>
+</ul>
+<p>原因在于，Redis的碎片整理工作也是在主线程中执行的，当其进行碎片整理时，必然会消耗CPU资源，产生更多的耗时，从而影响到客户端的请求。</p>
+<p>所以，当你需要开启这个功能时，最好提前测试评估它对Redis的影响。</p>
+<p>Redis碎片整理的参数配置如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 开启自动内存碎片整理（总开关）</span><br><span class="line">activedefrag yes</span><br><span class="line"># 内存使用 1000MB 以下，不需要进行碎片整理</span><br><span class="line">active-defrag-ignore-bytes 100mb</span><br><span class="line"># 内存碎片率超过 10%,开始碎片整理</span><br><span class="line">active-defrag-threashold-lower 10</span><br><span class="line"># 内存碎片率超过 100%，尽最大努力碎片整理</span><br><span class="line">active-defrag-threshold-upper 100</span><br><span class="line"></span><br><span class="line"># 内存碎片整理占用 CPU 资源最小百分比</span><br><span class="line">active-defrag-cycle-min 1</span><br><span class="line"># 内存碎片整理占用 CPU 资源最大百分比</span><br><span class="line">active-fefrag-cycle-max 25</span><br><span class="line"></span><br><span class="line"># 碎片整理期间，对于 List/Set/Hash/Zset 类型元素一次 Scan 的数量</span><br><span class="line">active-defrag-max-scan-fields 1000</span><br></pre></td></tr></table></figure>
+
+<p>需要结合Redis机器的负载情况，以及应用程序可接受的延迟范围进行评估，合理调整碎片整理的参数，尽可能降低碎片整理期间对Redis的影响。</p>
+<h2 id="11-网络带宽过载"><a href="#11-网络带宽过载" class="headerlink" title="11.网络带宽过载"></a>11.网络带宽过载</h2><p>在某个时间节点之后开始，操作Redis突然开始变慢了，而且一直持续下去，这种情况是什么原因导致的？</p>
+<p>此时应该排查一下Redis机器的网络带宽是否过载，是否存在某个实力把整个机器的网络带宽占满的情况。</p>
+<p>网络带宽过载的情况下，服务器在TCP层和网络层就会出现数据包发送延时，丢包等情况。</p>
+<p>Redis的高性能，除了操作内存之外，就在于网络IO了，如果网络IO存在瓶颈，那么也会严重影响Redis的性能。</p>
+<p>如果确实出现这种情况，则需要及时确认占满网络带宽Redis实例，如果属于正常的业务访问，那么就需要及时扩容或者迁移实例了，避免因为这个实例流量过大，影响这个机器的其他实例。</p>
+<p>运维层面，你需要对Redis机器的各项指标增加监控，包括网络流量，在网络流量达到一定阈值时提前报警，及时确认和扩容。</p>
+<p>笔记：如果发现是操作Redis的这条链路耗时变长了，则需要关注业务服务到Redis这条链路上，使这条链路变慢的原因有两点：</p>
+<p>1.业务服务器到Redis服务器之间的网络存在问题。</p>
+<p>2.Redis本身存在问题，需要进一步排查什么原因导致Redis变慢。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>study-1</title>
+    <url>/2023-05-07-study-1/</url>
+    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="栈，队列，数组"><a href="#栈，队列，数组" class="headerlink" title="栈，队列，数组"></a>栈，队列，数组</h2><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="栈的的基本概念"><a href="#栈的的基本概念" class="headerlink" title="栈的的基本概念"></a>栈的的基本概念</h4><ul>
+    <li>栈
+        <ul>
+            <li>逻辑结构是线性结构中的 <em style="color:#ff7675">线性表</em>，并且还是<em style="color:#ff7675">操作受限的线性表。</em>
+            </li>
+            <li>存储结构（物理存储）有两种，根据存储结构的不同，分为<em style="color:#ff7675">顺序栈</em> 和 <em style="color:#ff7675">链栈。</em>
+                <ul>
+                    <li>顺序栈的存储结构为 <em style="color:#ff7675">顺序存储。</em></li>
+                    <li>链栈的存储结构为 <em style="color:#ff7675">链式存储。</em></li>
+                </ul>
+            </li>
+            <li>运算：只允许在一端进行 <em style="color:#ff7675">插入</em>或者<em style="color:#ff7675">删除</em> 操作。分别称为进栈和出栈操作</li>
+        </ul>
+    </li>
+</ul>
+特点:<font style="color:#ff7675">后进先出LIFO（Last In First Out）</font>
+
+<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
+
+<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="共享栈"><a href="#共享栈" class="headerlink" title="共享栈"></a>共享栈</h5><p>利用栈底位置相对不变的特性，让两个栈分别设置在共享位置的两端，两个栈向共享空间的中间延伸。</p>
+<p>两个栈的栈顶指针都指向栈顶元素，  表示0号栈为空， <em style="color:#ff7675">S.top1&#x3D;MaxSize</em> 表示1号栈为空，仅当两个栈顶元素相邻(<em style="color:#ff7675">top1-top0&#x3D;1</em>),判断栈满。</p>
+<p>共享栈是为了更为有效地利用存储空间，两个栈相互调节，只有这整个存储空间占满时才发生上溢。</p>
+<h4 id="链栈的实现"><a href="#链栈的实现" class="headerlink" title="链栈的实现"></a>链栈的实现</h4><p>采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存在栈满上限的情况</p>
+<h5 id="链栈的链式存储结构"><a href="#链栈的链式存储结构" class="headerlink" title="链栈的链式存储结构"></a>链栈的链式存储结构</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span>&#123;</span></span><br><span class="line">    ElemType data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span> *<span class="title">node</span>;</span></span><br><span class="line">&#125; *ListStack;</span><br></pre></td></tr></table></figure>
+
+<p>采用链式存储，便于结点的插入与删除。链栈的操作与链表相同，入栈和出栈的操作都在链表的表头进行。</p>
+<h3 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h3><ul>
+<li><p>队列</p>
+<ul>
+<li><p>逻辑结构是线性结构中的<font style="color:#ff7675">线性表</font>，<font style="color:#ff7675">操作受限的线性表</font></p>
+</li>
+<li><p>存储结构（物理结构）有为两种，根据存储结构的不同，分为<font style="color:#ff7675">顺序存储</font>和<font style="color:#ff7675">链式存储</font></p>
+<ul>
+<li>其中使用链式存储的队列，称为<font style="color:#ff7675">链队列</font></li>
+</ul>
+</li>
+<li><p>运算：只允许在表的一端进行插入，另一端进行删除</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Second Day</title>
+    <url>/2023-05-07-Second-Day/</url>
+    <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
+<h3 id="安装hexo-blog-encrypt插件"><a href="#安装hexo-blog-encrypt插件" class="headerlink" title="安装hexo-blog-encrypt插件"></a>安装hexo-blog-encrypt插件</h3><p>weh55555使用的第一个插件，俺觉得值得记录一下！</p>
+<ul>
+    <li>在你的Blog目录下，运行 <em style="color:#ff7675">npm install hexo-blog-encrypt</em></li>
+</ul>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+<ul>
+    <li>在 <em style="color:#ff7675">/你的Blog目录/_config.yml</em> 文件中添加内容：</li>
+</ul>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="使用文章加密插件"><a href="#使用文章加密插件" class="headerlink" title="使用文章加密插件"></a>使用文章加密插件</h3><ul>
+    <li>在想使用文章加密功能的头部加入下述文字：</li>
+</ul>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">orgrinal</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-05-07 11:37:22</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">记录</span>]</span><br><span class="line"><span class="attr">password:</span> <span class="string">&quot;你想要设置的密码&quot;</span> </span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">my</span> <span class="string">blog,</span> <span class="string">enter</span> <span class="string">password</span> <span class="string">to</span> <span class="string">read.</span> </span><br><span class="line"><span class="attr">message:</span> <span class="string">输入密码！</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+    <li>其中
+        <ul>
+            <li>password：该Blog使用的密码</li>
+            <li>abstract：展示界面显示的少量文字</li>
+            <li>message：密码框上的tip</li>
+        </ul>
+    </li>
+</ul>
+
+
+]]></content>
+      <categories>
+        <category>hexo配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo插入图片</title>
+    <url>/2023-05-08-hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
+    <content><![CDATA[<h1 id="hexo-插入图片"><a href="#hexo-插入图片" class="headerlink" title="hexo 插入图片"></a>hexo 插入图片</h1><h2 id="全局资源文件夹"><a href="#全局资源文件夹" class="headerlink" title="全局资源文件夹"></a>全局资源文件夹</h2><p><font style="color:#d63031">不推荐</font></p>
+<p>将所有的文章的资源统一用一个全局资源文件夹管理。</p>
+<ul>
+<li>优点<ul>
+<li>使用便捷</li>
+<li>多篇文章需要引用同一资源时，也比较方便。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>缺点<ul>
+<li>文章很多时，图片都在同一个文件夹中，不便管理。</li>
+</ul>
+</li>
+</ul>
+<p>方法：</p>
+<p>在你的 Blog 文件夹的source目录下，新建一个专门放置图片资源的文件夹，可叫images，将想要插入的图片放在该文件夹中。</p>
+<p>md文档中，使用</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">![<span class="string">图片</span>](<span class="link">图片链接地址 &quot;图片title&quot;</span>) </span><br></pre></td></tr></table></figure>
+
+<p>的格式，圆括号内的链接地址写(&#x2F;images&#x2F;name.jpeg)。</p>
+<p>这里的 &#x2F; 指的是根目录，对于hexo，资源文件的根目录就是source。</p>
+<h2 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h2><p><font style="color:#00b894">推荐</font></p>
+<ul>
+<li><p>优点</p>
+<ul>
+<li>对于每篇文章都有一个专门的文件夹管理资源器</li>
+<li>便于结构化管理</li>
+</ul>
+</li>
+<li><p>缺点</p>
+<ul>
+<li>麻烦</li>
+</ul>
+</li>
+</ul>
+<p>方法：</p>
+<p>修改你的Blog文件夹中的_config.yml文件，如下:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>然后在终端中转到你的Blog文件夹中,输入 <font style="color:#ff7675">hexo new [layout] “title”</font>命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个同名的文件夹和.md文件</p>
+<p>注：layout可以不写，默认在 <font style="color:#ff7675">sources&#x2F;posts</font>目录下自动创建,title是这篇新文章的标题，最好使用双引号（””）将标题引起来，如果标题中间有空格则必须使用双引号。</p>
+<p>余下步骤同上！</p>
+<h2 id="Typora插入图片使用指南"><a href="#Typora插入图片使用指南" class="headerlink" title="Typora插入图片使用指南"></a>Typora插入图片使用指南</h2><p>如果你使用的Typora编辑你的Blog，而且你采用的是文件资源管理器的方式，你也可以这样设置</p>
+<p>点击文件-&gt;偏好设置-&gt;图像，按如下设置:</p>
+<img  
+                     lazyload
+                     alt="image"
+                     data-src="/2023-05-08-hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/tip1.png"
+                      class="" title="tip1"
+                >
+
+<p>便可以直接将该文章同名的文件夹中的图片直接复制粘贴在这篇文章中，不需要修改任何东西！</p>
+<p><font style="color:#ff7675">目前还没有解决如何改变图片大小问题，右键改变图片缩放的话，src无法自动定位到该文件！</font></p>
+]]></content>
+      <categories>
+        <category>hexo 配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>
