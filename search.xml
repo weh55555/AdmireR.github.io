@@ -20,47 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Second Day</title>
-    <url>/2023-05-07-Second-Day/</url>
-    <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
-<h3 id="安装hexo-blog-encrypt插件"><a href="#安装hexo-blog-encrypt插件" class="headerlink" title="安装hexo-blog-encrypt插件"></a>安装hexo-blog-encrypt插件</h3><p>weh55555使用的第一个插件，俺觉得值得记录一下！</p>
-<ul>
-    <li>在你的Blog目录下，运行 <em style="color:#ff7675">npm install hexo-blog-encrypt</em></li>
-</ul>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-<ul>
-    <li>在 <em style="color:#ff7675">/你的Blog目录/_config.yml</em> 文件中添加内容：</li>
-</ul>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="使用文章加密插件"><a href="#使用文章加密插件" class="headerlink" title="使用文章加密插件"></a>使用文章加密插件</h3><ul>
-    <li>在想使用文章加密功能的头部加入下述文字：</li>
-</ul>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">orgrinal</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-05-07 11:37:22</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">记录</span>]</span><br><span class="line"><span class="attr">password:</span> <span class="string">&quot;你想要设置的密码&quot;</span> </span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">my</span> <span class="string">blog,</span> <span class="string">enter</span> <span class="string">password</span> <span class="string">to</span> <span class="string">read.</span> </span><br><span class="line"><span class="attr">message:</span> <span class="string">输入密码！</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-    <li>其中
-        <ul>
-            <li>password：该Blog使用的密码</li>
-            <li>abstract：展示界面显示的少量文字</li>
-            <li>message：密码框上的tip</li>
-        </ul>
-    </li>
-</ul>
-
-
-]]></content>
-      <categories>
-        <category>hexo配置</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/2024-03-19-Redis%E5%8F%98%E6%85%A2%E7%9A%84%E5%9B%A0%E7%B4%A0/</url>
     <content><![CDATA[<h1 id="Redis变慢的因素"><a href="#Redis变慢的因素" class="headerlink" title="Redis变慢的因素"></a>Redis变慢的因素</h1><h2 id="1-使用复杂度过高的命令"><a href="#1-使用复杂度过高的命令" class="headerlink" title="1.使用复杂度过高的命令"></a>1.使用复杂度过高的命令</h2><p><strong>查看Redis的慢日志（slowlog）</strong></p>
@@ -272,6 +231,47 @@
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 <p>这样就可以在网上浏览自己的博客了！</p>
+]]></content>
+      <categories>
+        <category>hexo配置</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Second Day</title>
+    <url>/2023-05-07-Second-Day/</url>
+    <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
+<h3 id="安装hexo-blog-encrypt插件"><a href="#安装hexo-blog-encrypt插件" class="headerlink" title="安装hexo-blog-encrypt插件"></a>安装hexo-blog-encrypt插件</h3><p>weh55555使用的第一个插件，俺觉得值得记录一下！</p>
+<ul>
+    <li>在你的Blog目录下，运行 <em style="color:#ff7675">npm install hexo-blog-encrypt</em></li>
+</ul>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+<ul>
+    <li>在 <em style="color:#ff7675">/你的Blog目录/_config.yml</em> 文件中添加内容：</li>
+</ul>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="使用文章加密插件"><a href="#使用文章加密插件" class="headerlink" title="使用文章加密插件"></a>使用文章加密插件</h3><ul>
+    <li>在想使用文章加密功能的头部加入下述文字：</li>
+</ul>
+
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">orgrinal</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-05-07 11:37:22</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">记录</span>]</span><br><span class="line"><span class="attr">password:</span> <span class="string">&quot;你想要设置的密码&quot;</span> </span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">my</span> <span class="string">blog,</span> <span class="string">enter</span> <span class="string">password</span> <span class="string">to</span> <span class="string">read.</span> </span><br><span class="line"><span class="attr">message:</span> <span class="string">输入密码！</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+    <li>其中
+        <ul>
+            <li>password：该Blog使用的密码</li>
+            <li>abstract：展示界面显示的少量文字</li>
+            <li>message：密码框上的tip</li>
+        </ul>
+    </li>
+</ul>
+
+
 ]]></content>
       <categories>
         <category>hexo配置</category>
