@@ -20,22 +20,38 @@
       </tags>
   </entry>
   <entry>
-    <title>First Day</title>
-    <url>/2023-05-06-hello-world/</url>
-    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
-<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+    <title>Second Day</title>
+    <url>/2023-05-07-Second-Day/</url>
+    <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
+<h3 id="安装hexo-blog-encrypt插件"><a href="#安装hexo-blog-encrypt插件" class="headerlink" title="安装hexo-blog-encrypt插件"></a>安装hexo-blog-encrypt插件</h3><p>weh55555使用的第一个插件，俺觉得值得记录一下！</p>
+<ul>
+    <li>在你的Blog目录下，运行 <em style="color:#ff7675">npm install hexo-blog-encrypt</em></li>
+</ul>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
+<ul>
+    <li>在 <em style="color:#ff7675">/你的Blog目录/_config.yml</em> 文件中添加内容：</li>
+</ul>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="使用文章加密插件"><a href="#使用文章加密插件" class="headerlink" title="使用文章加密插件"></a>使用文章加密插件</h3><ul>
+    <li>在想使用文章加密功能的头部加入下述文字：</li>
+</ul>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<p>这样就可以在网上浏览自己的博客了！</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">orgrinal</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-05-07 11:37:22</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">记录</span>]</span><br><span class="line"><span class="attr">password:</span> <span class="string">&quot;你想要设置的密码&quot;</span> </span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">my</span> <span class="string">blog,</span> <span class="string">enter</span> <span class="string">password</span> <span class="string">to</span> <span class="string">read.</span> </span><br><span class="line"><span class="attr">message:</span> <span class="string">输入密码！</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+    <li>其中
+        <ul>
+            <li>password：该Blog使用的密码</li>
+            <li>abstract：展示界面显示的少量文字</li>
+            <li>message：密码框上的tip</li>
+        </ul>
+    </li>
+</ul>
+
+
 ]]></content>
       <categories>
         <category>hexo配置</category>
@@ -45,51 +61,38 @@
       </tags>
   </entry>
   <entry>
-    <title>orgrinal</title>
-    <url>/2023-05-07-orgrinal/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="456ac8a3118b09fe4058fc6f66042560fa70dc783b8c2fd0984926d76cb14e56">7101c09bfa547786a7ea7678592aad1eb75af43f96aea857bea33b86f2abc0e6712f6d5c9b2b5a078a6abb0f59d59d487b0eb173031be6718e1b1129aff0e23fa7091b8b0ebdd010b9895b48f8959bad1f385825bfe6a288924c8faadaf12e909b840e41ed396d60142b45d37bf9472fc2d3dd1047c6109924885cfa62cf71ab94bfe43b42002ccd15e1be741eb21abdb5945755cd715067f0a7f6c4d91fa468656b41eb2c8efb64e2f668bc568866bb3dde1a0cc1f372bb6a2a9683bc4e10587c008e67f351a7f70dc33cbf869c2bd225a8c56b87f3074da67dd0e8f765bcbb90f5789e24728dfe719dbfb0ba0cf45c161a2868ecb5087ea641bbce58a25fa01bb8df467ab687131337266faa30813f4378455514c79cfcd9a246786d0367372c4b302050dab3e7ffbc17d43ce77bb4aa56e46f24807d9d815f003f37f0cf57dfe80dd55dbed373278607f85160d8f6142fa6a4380fcdebbe3993966ceb3e5a9017ed8b984c31def68ea75af3bab2fae7dea944128d7c3ca6f578426dd8282aad4bb09d977b717d59de1c064229cf7591656a61404d17ea0de1848774dbf394b3283ad58957831dd028435409611c191e99610e2f1dae4403384a73526b5205542366fb45b2621c5c216d8e9578543f5c40afed5a5b0c5b287fa2e25d6c17c72672e9fb6c85e29e83633c0522ca78de31e1f656e5035b7911452f6cd3a0c70135b8d598167820440c4cfdfe9ccbd715b896d38692e9097a3a86c61c754a7bbf4f9ffb92cefdd3206e6f50e37ebbcc0bd4d54b053cb6948aa8348de30d1ce13fcb57179c80a1c2eff26d6bfc9f48c12e4e669ba00f5058f5492a623c9c4953a21111648a9266e8f924fd7ccb68bc91b27d53645bf05f4bac2fdf54f7669575d443ff0405e0c5edf6b5bbed3ddd2b58e891287a58b84615b1ce649a00d2398e77d95d44e985ff497c7903226c8a64205ba00dc0817a3ff201cddee27f7427bc020ee01d3b453821b28b1da75a21423faa53bb7dcc09f3cba6bf695ec2983aeb390f7a5fa1b5ed1d5dc68f62439199809efd453e05759aeec641151e60a1512797c526ae5235ec1e0cada670006ad5eb87b7cdec917b70755d6287b8ae346dfe672249a7aca3bdc252694fa0341476c3cee99c591a83794263ddcf238e1794cbfb8028dc517686cf134077e794cfbaaae96bc941d5e54b3f29475a6ce713ac5efbc4dabd03d2fdeabb0d0c7057ef89dfd848df59dd7458fb6eedb24a346f8cab1e675faabcacdbadb299a0fc70cce5655081357a08b82c725b0f2cf210a92b63bb247c983d11970e67336aad977cf6bdcfdbbf4a0cf6193cffecf62f01b1c1f34d86f0a4d708d12c8b05f1077452b32d2291943ef6efee386849d3dbd6f6b01c4194e52da14f4e0a3161a69fd4d920d562a0fb9374415dfe23314fd4873ed008dc14a832218161a4859afd55a9b6c384df0a4c921aa38b255eb29b7576c706fe3b43f2529c7b5f33b149dbe21cab9d11b18fd9596830bc6019c4a3169880aeb13b0b06ddbe61eb08db7a26d5d38c36b96e1f5073ec134d04b6dc1c3fe16563e5a35a502e67854bc667f264129727a1bbfe093593e492ab588313d1f1096e5cf26841059aad7ba9e2ea69168a9c1a511747e858554738acc43150407bf88c026063bd5f5b4a727ba2d9a3357880044ea80ef1ff41a65f6948043def414579796cacafeb7b0f418117ef7ea702b98efbaf3121381a5a14b4511c9adb4021248fef20572e8ae22a9390c2cede1446e953a5b05e465bce4a1d22adece240c669f710b6d1aa9350c2d8c98a5e64810aec7545e251c3eef256cc21381e9550b1e2528e5c4a0f268dfdce9568f207b6272c1b0ad843fd2459cae33b78c5cd78cd7c86d561e6b4c9ca3fc062f5796d4ef5ceb3de8c72291d3679d20b74407ddc46fa39d0f67204d4bf66c1ef08158e1cbcc9575ba1e4f0252d6d5b962f28e93306bcfe455bd2985baa6ed4357d778212e6639d463afddcb06191ea9b8800aa31661c7d8308caa946b96125cc7d006c2e23382f68afac407615af2d1356dc1746969f7731f484c190b0953e9fac773ca2ac4a655ab045c90b08e3dd666123e62c4416a7d192b09082dd7014e97896bb5a3b9e59f59f3ec236ef2ddeb141be8bd902c0b8627898a20e23cf28d5a9e2fb59957dabba637203668272809f2dbdf4dd170b8c68c7b388311a6c7b7b3522a5e6ad0d0f3ac2e353cbb08043b9de80b70c387b15b8ea3596378024c7d11d551c7ab189b7add982618f02e447aad8d8d9ebe7de9713d9770c9d158153397dfe8640d625d764d18abba5600daa358387e3b979d146a8d664247761e4a2931dd490e5e18d4a93086fc4bf2986a56023fe2ab2f0163ebb4c0fdd7051258330c7039a37e1c13e0d2ca2a6ff4210b35fd9bc18b0f4dae961f6f11203c01111e664ec94f0b42e0698b382e1185bf82ff5d6b7871898dd570cb353dd97679beb0b88512c6fc7da6e91b2a1e082ef6016ac06b8d17e6117d65a636a3f8f6fc07da7b8fe0b0c426abc781c420fa561058cc1c71d83d9f5c1a4fbe36c5257c14d1044e642a5ff2f20832165e4ff9ecb46b1ff8bab792a1a8f6d20f1ce02e653d6f28f35e18a83b141be36f1292a4841ca64326798f33facf84e2d7d83a6ae93ab444debb3e536cbcb75bc016f8a055f7407402f62377ded01e07d05fe92c13dcec0bfe977c49e4d62c76d187244c921d0cf68e1ffe1b8b0201726b5d0831252412a6cb6f9088b387d3b55b965f5895e5fb111dcf3260b12ee8c35294d25898e8fa3b46dee2252c39a7ecd04ecefb8551414a3cdad94c4037e6dc1b5c4c4abf3192328a733df030bd6c3142d9c93f91fd51f2d82b323e25694ffd593356cf672cd81020397db6aedc5c17b6592200b5d34a84d5f85fd3b026bf3135dfe17cbdab72fe2e27f9627c407d9ef0b398bd4781926520f63151739b303b1a919715f6f3cc52582ab8d43be0957f9a04422e66ae5d62931dc81d9c2fb62520dc73873b89c6c2c8399b281ea469b25b16ab1ca92d1c90c3117bd46401e66a9848da0cf1f925dd5e8c49bfaa0ebdacf145fa591def012390fec3044490d6a95df5c099501e6439eea2c477181ec7ba54d506ee540f5fcf01e48b32e9bb572eab67f73c5b4aea49b677720c123e5faa922b07e777c45ced22eb17eaac66ea0169adf2600933fd06125c4ba25e6a68665ba07f99fca051523a315c36eaad27d02e91f97ba2cbfa1fa44868116f62dd011e0751d3b94bd84de868bafb4f5fbe655c8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/2024-03-19-Redis%E5%8F%98%E6%85%A2%E7%9A%84%E5%9B%A0%E7%B4%A0/</url>
-    <content><![CDATA[<h1 id="Redis变慢的因素"><a href="#Redis变慢的因素" class="headerlink" title="Redis变慢的因素"></a>Redis变慢的因素</h1><h2 id="1-使用复杂度过高的命令"><a href="#1-使用复杂度过高的命令" class="headerlink" title="1.使用复杂度过高的命令"></a>1.使用复杂度过高的命令</h2><h3 id="查看Redis的慢日志（slowlog）"><a href="#查看Redis的慢日志（slowlog）" class="headerlink" title="查看Redis的慢日志（slowlog）"></a>查看Redis的慢日志（slowlog）</h3><p>设置慢日志的阈值</p>
+    <content><![CDATA[<h1 id="Redis变慢的因素"><a href="#Redis变慢的因素" class="headerlink" title="Redis变慢的因素"></a>Redis变慢的因素</h1><h2 id="1-使用复杂度过高的命令"><a href="#1-使用复杂度过高的命令" class="headerlink" title="1.使用复杂度过高的命令"></a>1.使用复杂度过高的命令</h2><p><strong>查看Redis的慢日志（slowlog）</strong></p>
+<p>设置慢日志的阈值</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#命令执行耗时超过5毫秒，记录慢日志</span><br><span class="line">config set slowlog-log-slower-than 5000</span><br><span class="line">#只保留最近500条慢日志</span><br><span class="line">config set slowlog-max-len</span><br></pre></td></tr></table></figure>
 
 <p>查看Redis慢日志</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">slowlog get 5</span><br></pre></td></tr></table></figure>
 
-<h3 id="导致操作延迟变大的原因："><a href="#导致操作延迟变大的原因：" class="headerlink" title="导致操作延迟变大的原因："></a>导致操作延迟变大的原因：</h3><p>1.经常使用O(N)以上复杂度的命令，例如sort,sunion,zunionstore聚合类命令。</p>
+<p>导致操作延迟变大的原因：</p>
+<p>1.经常使用O(N)以上复杂度的命令，例如sort,sunion,zunionstore聚合类命令。</p>
 <p>2.使用O(N)复杂度的命令，但N的值非常大。</p>
 <p>第一种情况的原因：Redis在操作内存数据时，时间复杂度过高，要花费更多的cpu资源。</p>
 <p>第二种情况的原因：Redis一次返回给客户端的数据过多，更多时间花费在数据协议的组装和网络运输过程中。</p>
-<h3 id="优化的方法："><a href="#优化的方法：" class="headerlink" title="优化的方法："></a>优化的方法：</h3><ol>
+<h3 id="优化的方法"><a href="#优化的方法" class="headerlink" title="优化的方法"></a>优化的方法</h3><ol>
 <li><p>尽量不使用O(N)以上负责度过高的命令，对于数据的聚合操作，放在客户端做。</p>
 </li>
 <li><p>执行O(N)命令，保证N尽量的小（推荐N &lt;&#x3D; 300）,每次获取尽量少的数据，让Redis可以及时处理返回。</p>
 </li>
 </ol>
 <h2 id="2-操作bigkey"><a href="#2-操作bigkey" class="headerlink" title="2.操作bigkey"></a>2.操作bigkey</h2><p>如果一个key写入的value非常大，那么Redis在分配内存时就会比较耗时。同样删除这个key时，释放内存也会比较耗时，那么称这种类型的key为bigkey。</p>
-<h3 id="扫描出实例中bigkey的分布情况："><a href="#扫描出实例中bigkey的分布情况：" class="headerlink" title="扫描出实例中bigkey的分布情况："></a>扫描出实例中bigkey的分布情况：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">redis-cli -h 127.0.0.1 -p 6379 --bigkeys -i 0.01</span><br></pre></td></tr></table></figure>
+<p><strong>扫描出实例中bigkey的分布情况：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">redis-cli -h 127.0.0.1 -p 6379 --bigkeys -i 0.01</span><br></pre></td></tr></table></figure>
 
-<h3 id="执行这个命令时，要注意2个问题："><a href="#执行这个命令时，要注意2个问题：" class="headerlink" title="执行这个命令时，要注意2个问题："></a>执行这个命令时，要注意2个问题：</h3><ul>
+<p><strong>执行这个命令时，要注意2个问题：</strong></p>
+<ul>
 <li><p>对线上实例进行bigkey扫描时，Redis 的OPS会突增，为了降低扫描过程中对Redis的影响，最好控制一下扫描的频率，指定-i参数即可，它表示扫描过程中每次扫描后休息的时间间隔，单位是秒</p>
 </li>
 <li><p>扫描结果中，对于容器类型（List、Hash、Set、Zset）的key，只能扫描出元素最多的key。但一个key的元素多，不一定占用的内存也多，还需要根据业务情况，进一步评估内存占用情况。</p>
-<h3 id="优化的方法：-1"><a href="#优化的方法：-1" class="headerlink" title="优化的方法："></a>优化的方法：</h3><ul>
+</li>
+</ul>
+<h3 id="优化的方法-1"><a href="#优化的方法-1" class="headerlink" title="优化的方法"></a>优化的方法</h3><ul>
 <li><p>业务应用尽量避免写入bigkey</p>
 </li>
 <li><p>如果使用的是Redis4.0以上的版本，用UNLINK命令替代DEL，此命令可以释放key内存的操作，放到后台线程中去执行，从而降低对Redis的影响</p>
@@ -97,25 +100,25 @@
 <li><p>如果使用的是Redis6.1以上的版本，可以开启lazy-free机制（lazyfree-lazy-user-del &#x3D; yes），在执行DEL命令时，释放内存也会放到后台线程中执行</p>
 </li>
 </ul>
-</li>
-</ul>
 <h2 id="3-集中过期"><a href="#3-集中过期" class="headerlink" title="3.集中过期"></a>3.集中过期</h2><p>如果有大量的key在某个固定时间点集中过期，在这个时间点访问Redis时，就会可能导致延时变大。</p>
-<h3 id="Redis的过期策略："><a href="#Redis的过期策略：" class="headerlink" title="Redis的过期策略："></a>Redis的过期策略：</h3><p>Redis的过期数据采用被动过期+主动过期两种策略：</p>
+<p><strong>Redis的过期策略：</strong></p>
+<p>Redis的过期数据采用被动过期+主动过期两种策略：</p>
 <ul>
 <li><p>被动过期：只有当访问某个key时，才判断这个key是否已过期，如果哦已过期，则从实例中删除。</p>
 </li>
 <li><p>主动过期：Redis内部维护了一个定时任务，默认每隔100毫秒（1秒10次）就会从全局的过期哈希表中随机取出20个key，然后删除其中过期的key，如果过期key的比例超过了25%，则继续重复此过程，直到过期key的比例下降到25%一下，或者这次任务的执行耗时超过了25毫秒，才会退出循环。</p>
+</li>
+</ul>
 <p><strong>主动过期key的定时任务，是在Redis主线程中执行的。</strong>也就是说如果在执行主动过期的过程中，出现了需要大量删除过期key的情况，那么此时应用程序在访问Redis时，必须要等到这个过期任务执行结束，Redis才可以服务这个客服端请求。那么这个时候就会出现应用访问Redis延时变大。</p>
 <p>因为慢日志只记录一个命令真正操作内存数据的耗时，而Redis主动删除过期key的逻辑，是在命令真正执行之前执行的，此时会看到<strong>慢日志没有操作耗时的命令，但我们的应用程序却感知到了延迟变大，其实时间都花费在了删除过期key上</strong>。</p>
-<h3 id="如何分析和排除这种情况？"><a href="#如何分析和排除这种情况？" class="headerlink" title="如何分析和排除这种情况？"></a>如何分析和排除这种情况？</h3><p>一般集中过期使用的是expireat&#x2F;pexireat命令，只需要在代码中搜索这个关键字。</p>
+<p><strong>如何分析和排除这种情况？</strong></p>
+<p>一般集中过期使用的是expireat&#x2F;pexireat命令，只需要在代码中搜索这个关键字。</p>
 <p>排除代码之后，如果确实存在集中过期key的逻辑存在，但这种逻辑又是业务所必须的，那此时如何优化，同时又不对Redis有性能影响呢？</p>
 <h3 id="规避这个问题的方法"><a href="#规避这个问题的方法" class="headerlink" title="规避这个问题的方法"></a>规避这个问题的方法</h3><ul>
 <li><p>集中过期key增加一个随机过期时间，把集中过期的时间打散，降低Redis清理过期key的压力。</p>
 </li>
 <li><p>如果使用的Redis4.0以上的版本，可以开启lazy-free机制，当删除过期key时，把释放内存的操作放到后台线程中执行，避免阻塞主线程。</p>
 <p>第一个方案，在设置key的过期时间时，增加一个随机时间。</p>
-</li>
-</ul>
 </li>
 </ul>
 <h2 id="4-实例内存到达上限"><a href="#4-实例内存到达上限" class="headerlink" title="4.实例内存到达上限"></a>4.实例内存到达上限</h2><p>Redis内存达到maxmemory后，每次写入新的数据之前，Redis必须先从实例中踢出一部分数据，让整个实例的内存维持在maxmemory之下，然后才能把新数据写进来。</p>
@@ -136,6 +139,8 @@
 <li><p><code>allkeys-lfu</code>：不管key是否设置了过期，淘汰访问频率最低的key（4.0+版本支持）</p>
 </li>
 <li><p><code>volatile-lfu</code>：只淘汰访问频率最低，并设置了过期时间key（4.0+版本支持）</p>
+</li>
+</ul>
 <h3 id="优化建议："><a href="#优化建议：" class="headerlink" title="优化建议："></a>优化建议：</h3><ul>
 <li><p>避免存储bigkey，降低释放内存耗时</p>
 </li>
@@ -144,8 +149,6 @@
 <li><p>拆分实例，把淘汰key的压力分摊到多个实例上</p>
 </li>
 <li><p>如果使用的是Redis4.0以上版本，开启lazy-free机制，把淘汰key释放内存的操作放在后台线程中使用（配置lazyfree-lazy-eviction &#x3D; yes）</p>
-</li>
-</ul>
 </li>
 </ul>
 <h2 id="5-fork耗时严重"><a href="#5-fork耗时严重" class="headerlink" title="5.fork耗时严重"></a>5.fork耗时严重</h2><p>当Redis开启了后台RDB和AOF rewirte后，在执行时，它们都需要主进程创建一个子进程进行数据的持久化。主进程创建子进程，会调用操作系统提供的fork函数，在fork执行过程中，主进程需要拷贝自己的内存页表给子进程，如果这个实例很大，那么这个拷贝的过程也会比较耗时，而且也会消耗大量的cpu资源，在完成fork之前，整个Redis实例会被阻塞住，无法处理任何客户端请求。</p>
@@ -165,7 +168,8 @@
 </li>
 </ul>
 <h2 id="6-开启内存大页"><a href="#6-开启内存大页" class="headerlink" title="6.开启内存大页"></a>6.开启内存大页</h2><p>应用程序向操作系统申请内存时，是按内存页进行申请的，而常规的内存页大小是4KB，linux内核从2.6.38开始，支持内存大页机制，该机制允许应用程序以2MB大小为单位，向操作系统申请内存。应用系统每次申请的内存单位变大了，但这也意味着内存的耗时变长。</p>
-<h3 id="对Redis的影响："><a href="#对Redis的影响：" class="headerlink" title="对Redis的影响："></a>对Redis的影响：</h3><p>当Redis在执行后台RDB和AOF rewrite时，采用fork子进程的方式来处理。但主进程fork子进程后，此时的主进程依旧是可以接收写请求的，而进来的写请求，会采用Copy On Write(写时复制)的方式操作内存数据。也就是说，主进程一旦有数据需要修改，Redis并不会直接修改现有内存中的数据，而是先将这块内存数据拷贝出来，再修改这块新内存的数据，这就是所谓的写时负责。</p>
+<p><strong>对Redis的影响：</strong></p>
+<p>当Redis在执行后台RDB和AOF rewrite时，采用fork子进程的方式来处理。但主进程fork子进程后，此时的主进程依旧是可以接收写请求的，而进来的写请求，会采用Copy On Write(写时复制)的方式操作内存数据。也就是说，主进程一旦有数据需要修改，Redis并不会直接修改现有内存中的数据，而是先将这块内存数据拷贝出来，再修改这块新内存的数据，这就是所谓的写时负责。</p>
 <p>这样做的好处是，父进程有任何写操作，并不会影响子进程的数据持久化（子进程只持久化fork这一瞬间整个实例中订单所有数据即可，不关心新的数据变更，因为子进程只需要一份内存快照，然后持久化到磁盘上）。</p>
 <p><strong>主进程在拷贝内存数据时，这个阶段就涉及到新内存的申请，如果此时操作系统开启了内存大页，那么在此期间，客户端即便只修改了10B的数据，Redis在申请内存时也会以2MB为单位向操作系统申请，申请内存的耗时变长，进而导致每个写请求的延迟增加，影响到Redis性能</strong></p>
 <h3 id="如何解决这个问题："><a href="#如何解决这个问题：" class="headerlink" title="如何解决这个问题："></a>如何解决这个问题：</h3><p>关闭内存大页机制，内存大页的优势是可以在一定程度上降低应用程序申请内存的次数。但对于Redis这种对性能和延迟机器敏感的数据库来说，我们希望Redis在每次申请内存时，耗时尽量短，所以不建议在Redis机器上开启这个机制。</p>
@@ -189,14 +193,14 @@
 <li><p>子进程正在执行AOF rewrite，这个过程会占用大量的磁盘IO资源</p>
 </li>
 <li><p>有其他应用程序在执行大量的写文件操作，也会占用磁盘IO资源</p>
+</li>
+</ul>
 <p>出现情况1这种问题的原因在于Redis的AOF后台子线程刷盘操作，撞上了子进程AOF rewrite！Redis提供了一个配置项，当子进程在AOF rewrite期间，可以让后台子线程不执行刷盘（不触发fsync系统系统调用）操作，这就相当于在AOF rewrite期间，临时把appendfsync设置为了none，配置如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># AOF rewrite期间，AOF 后台子线程不进行刷盘操作</span><br><span class="line"># 相当于在这期间，临时把sppendfsync设置为了none</span><br><span class="line">no-appendfsync-on-rewrite</span><br></pre></td></tr></table></figure>
 
 <p>开启这个配置项，在AOF rewrite期间，如果发生实例宕机，那么此时会丢失更多的数据，性能和数据安全性，需要权衡后进行选择。</p>
 <p>如果占用磁盘资源的是其他应用软件，则需要定位到哪个应用软件在大量写磁盘，然后把这个应用程序迁移到其他机器上执行就好了，避免对Redis产生影响。</p>
 <p>如果对Redis的性能和数据安全都有很高的要求，那么建议从硬件层面来优化，更换为SSD磁盘，提高磁盘的IO能力，保证AOF期间有充足的磁盘资源可以使用。</p>
-</li>
-</ul>
 <h2 id="8-绑定cpu"><a href="#8-绑定cpu" class="headerlink" title="8.绑定cpu"></a>8.绑定cpu</h2><p>在部署服务时，为了提高服务性能，降低应用程序在多个CPU核心之间的上下文切换带来的性能损耗，通常采用的方案是进程绑定CPU的方式提高性能。</p>
 <p>Redis在绑定CPU时，若不了解Redis的运行原理，随意绑定CPU不仅不会提高性能，有可能适得其反。</p>
 <p>一般现代的服务器会有多个CPU，而每个CPU又包含多个物理核心，每个物理核心又分为多个逻辑核心，每个物理核下的逻辑核共用L1&#x2F;L2 Cache。</p>
@@ -252,101 +256,22 @@
 ]]></content>
   </entry>
   <entry>
-    <title>study-1</title>
-    <url>/2023-05-07-study-1/</url>
-    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="栈，队列，数组"><a href="#栈，队列，数组" class="headerlink" title="栈，队列，数组"></a>栈，队列，数组</h2><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="栈的的基本概念"><a href="#栈的的基本概念" class="headerlink" title="栈的的基本概念"></a>栈的的基本概念</h4><ul>
-    <li>栈
-        <ul>
-            <li>逻辑结构是线性结构中的 <em style="color:#ff7675">线性表</em>，并且还是<em style="color:#ff7675">操作受限的线性表。</em>
-            </li>
-            <li>存储结构（物理存储）有两种，根据存储结构的不同，分为<em style="color:#ff7675">顺序栈</em> 和 <em style="color:#ff7675">链栈。</em>
-                <ul>
-                    <li>顺序栈的存储结构为 <em style="color:#ff7675">顺序存储。</em></li>
-                    <li>链栈的存储结构为 <em style="color:#ff7675">链式存储。</em></li>
-                </ul>
-            </li>
-            <li>运算：只允许在一端进行 <em style="color:#ff7675">插入</em>或者<em style="color:#ff7675">删除</em> 操作。分别称为进栈和出栈操作</li>
-        </ul>
-    </li>
-</ul>
-特点:<font style="color:#ff7675">后进先出LIFO（Last In First Out）</font>
+    <title>First Day</title>
+    <url>/2023-05-06-hello-world/</url>
+    <content><![CDATA[<h2 id="今天学到的新知识"><a href="#今天学到的新知识" class="headerlink" title="今天学到的新知识"></a>今天学到的新知识</h2><h3 id="如何更新和上传博客"><a href="#如何更新和上传博客" class="headerlink" title="如何更新和上传博客"></a>如何更新和上传博客</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo cl</span><br></pre></td></tr></table></figure>
+<p>‘hexo c1’命令用于清除缓存文件(db.json)和已生成的静态文件(public)。<br>例如:在更换主题后，如果发现站点更改不生效，可以运行该命令。</p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
 
-<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>这些操作只是在本地进行了更新，要想部署到网上(github)，则不需要输入hexo x，输入如下代码:</p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h5 id="共享栈"><a href="#共享栈" class="headerlink" title="共享栈"></a>共享栈</h5><p>利用栈底位置相对不变的特性，让两个栈分别设置在共享位置的两端，两个栈向共享空间的中间延伸。</p>
-<p>两个栈的栈顶指针都指向栈顶元素，  表示0号栈为空， <em style="color:#ff7675">S.top1&#x3D;MaxSize</em> 表示1号栈为空，仅当两个栈顶元素相邻(<em style="color:#ff7675">top1-top0&#x3D;1</em>),判断栈满。</p>
-<p>共享栈是为了更为有效地利用存储空间，两个栈相互调节，只有这整个存储空间占满时才发生上溢。</p>
-<h4 id="链栈的实现"><a href="#链栈的实现" class="headerlink" title="链栈的实现"></a>链栈的实现</h4><p>采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存在栈满上限的情况</p>
-<h5 id="链栈的链式存储结构"><a href="#链栈的链式存储结构" class="headerlink" title="链栈的链式存储结构"></a>链栈的链式存储结构</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span>&#123;</span></span><br><span class="line">    ElemType data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span> *<span class="title">node</span>;</span></span><br><span class="line">&#125; *ListStack;</span><br></pre></td></tr></table></figure>
-
-<p>采用链式存储，便于结点的插入与删除。链栈的操作与链表相同，入栈和出栈的操作都在链表的表头进行。</p>
-<h3 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h3><ul>
-<li><p>队列</p>
-<ul>
-<li><p>逻辑结构是线性结构中的<font style="color:#ff7675">线性表</font>，<font style="color:#ff7675">操作受限的线性表</font></p>
-</li>
-<li><p>存储结构（物理结构）有为两种，根据存储结构的不同，分为<font style="color:#ff7675">顺序存储</font>和<font style="color:#ff7675">链式存储</font></p>
-<ul>
-<li>其中使用链式存储的队列，称为<font style="color:#ff7675">链队列</font></li>
-</ul>
-</li>
-<li><p>运算：只允许在表的一端进行插入，另一端进行删除</p>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Second Day</title>
-    <url>/2023-05-07-Second-Day/</url>
-    <content><![CDATA[<h2 id="今天开始了解hexo的插件了"><a href="#今天开始了解hexo的插件了" class="headerlink" title="今天开始了解hexo的插件了"></a>今天开始了解hexo的插件了</h2><p>一开始觉得Blog的样式因你选择的博客主题而固定，没有办法修改<br>因此便发现的hexo的插件</p>
-<h3 id="安装hexo-blog-encrypt插件"><a href="#安装hexo-blog-encrypt插件" class="headerlink" title="安装hexo-blog-encrypt插件"></a>安装hexo-blog-encrypt插件</h3><p>weh55555使用的第一个插件，俺觉得值得记录一下！</p>
-<ul>
-    <li>在你的Blog目录下，运行 <em style="color:#ff7675">npm install hexo-blog-encrypt</em></li>
-</ul>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-blog-encrypt</span><br></pre></td></tr></table></figure>
-<ul>
-    <li>在 <em style="color:#ff7675">/你的Blog目录/_config.yml</em> 文件中添加内容：</li>
-</ul>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">encrypt:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="使用文章加密插件"><a href="#使用文章加密插件" class="headerlink" title="使用文章加密插件"></a>使用文章加密插件</h3><ul>
-    <li>在想使用文章加密功能的头部加入下述文字：</li>
-</ul>
-
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">orgrinal</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2023-05-07 11:37:22</span></span><br><span class="line"><span class="attr">tags:</span> [<span class="string">记录</span>]</span><br><span class="line"><span class="attr">password:</span> <span class="string">&quot;你想要设置的密码&quot;</span> </span><br><span class="line"><span class="attr">abstract:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">my</span> <span class="string">blog,</span> <span class="string">enter</span> <span class="string">password</span> <span class="string">to</span> <span class="string">read.</span> </span><br><span class="line"><span class="attr">message:</span> <span class="string">输入密码！</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-    <li>其中
-        <ul>
-            <li>password：该Blog使用的密码</li>
-            <li>abstract：展示界面显示的少量文字</li>
-            <li>message：密码框上的tip</li>
-        </ul>
-    </li>
-</ul>
-
-
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>这样就可以在网上浏览自己的博客了！</p>
 ]]></content>
       <categories>
         <category>hexo配置</category>
@@ -418,6 +343,88 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>orgrinal</title>
+    <url>/2023-05-07-orgrinal/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="456ac8a3118b09fe4058fc6f66042560fa70dc783b8c2fd0984926d76cb14e56">7101c09bfa547786a7ea7678592aad1eb75af43f96aea857bea33b86f2abc0e6712f6d5c9b2b5a078a6abb0f59d59d487b0eb173031be6718e1b1129aff0e23fa7091b8b0ebdd010b9895b48f8959bad1f385825bfe6a288924c8faadaf12e909b840e41ed396d60142b45d37bf9472fc2d3dd1047c6109924885cfa62cf71ab94bfe43b42002ccd15e1be741eb21abdb5945755cd715067f0a7f6c4d91fa468656b41eb2c8efb64e2f668bc568866bb3dde1a0cc1f372bb6a2a9683bc4e10587c008e67f351a7f70dc33cbf869c2bd225a8c56b87f3074da67dd0e8f765bcbb90f5789e24728dfe719dbfb0ba0cf45c161a2868ecb5087ea641bbce58a25fa01bb8df467ab687131337266faa30813f4378455514c79cfcd9a246786d0367372c4b302050dab3e7ffbc17d43ce77bb4aa56e46f24807d9d815f003f37f0cf57dfe80dd55dbed373278607f85160d8f6142fa6a4380fcdebbe3993966ceb3e5a9017ed8b984c31def68ea75af3bab2fae7dea944128d7c3ca6f578426dd8282aad4bb09d977b717d59de1c064229cf7591656a61404d17ea0de1848774dbf394b3283ad58957831dd028435409611c191e99610e2f1dae4403384a73526b5205542366fb45b2621c5c216d8e9578543f5c40afed5a5b0c5b287fa2e25d6c17c72672e9fb6c85e29e83633c0522ca78de31e1f656e5035b7911452f6cd3a0c70135b8d598167820440c4cfdfe9ccbd715b896d38692e9097a3a86c61c754a7bbf4f9ffb92cefdd3206e6f50e37ebbcc0bd4d54b053cb6948aa8348de30d1ce13fcb57179c80a1c2eff26d6bfc9f48c12e4e669ba00f5058f5492a623c9c4953a21111648a9266e8f924fd7ccb68bc91b27d53645bf05f4bac2fdf54f7669575d443ff0405e0c5edf6b5bbed3ddd2b58e891287a58b84615b1ce649a00d2398e77d95d44e985ff497c7903226c8a64205ba00dc0817a3ff201cddee27f7427bc020ee01d3b453821b28b1da75a21423faa53bb7dcc09f3cba6bf695ec2983aeb390f7a5fa1b5ed1d5dc68f62439199809efd453e05759aeec641151e60a1512797c526ae5235ec1e0cada670006ad5eb87b7cdec917b70755d6287b8ae346dfe672249a7aca3bdc252694fa0341476c3cee99c591a83794263ddcf238e1794cbfb8028dc517686cf134077e794cfbaaae96bc941d5e54b3f29475a6ce713ac5efbc4dabd03d2fdeabb0d0c7057ef89dfd848df59dd7458fb6eedb24a346f8cab1e675faabcacdbadb299a0fc70cce5655081357a08b82c725b0f2cf210a92b63bb247c983d11970e67336aad977cf6bdcfdbbf4a0cf6193cffecf62f01b1c1f34d86f0a4d708d12c8b05f1077452b32d2291943ef6efee386849d3dbd6f6b01c4194e52da14f4e0a3161a69fd4d920d562a0fb9374415dfe23314fd4873ed008dc14a832218161a4859afd55a9b6c384df0a4c921aa38b255eb29b7576c706fe3b43f2529c7b5f33b149dbe21cab9d11b18fd9596830bc6019c4a3169880aeb13b0b06ddbe61eb08db7a26d5d38c36b96e1f5073ec134d04b6dc1c3fe16563e5a35a502e67854bc667f264129727a1bbfe093593e492ab588313d1f1096e5cf26841059aad7ba9e2ea69168a9c1a511747e858554738acc43150407bf88c026063bd5f5b4a727ba2d9a3357880044ea80ef1ff41a65f6948043def414579796cacafeb7b0f418117ef7ea702b98efbaf3121381a5a14b4511c9adb4021248fef20572e8ae22a9390c2cede1446e953a5b05e465bce4a1d22adece240c669f710b6d1aa9350c2d8c98a5e64810aec7545e251c3eef256cc21381e9550b1e2528e5c4a0f268dfdce9568f207b6272c1b0ad843fd2459cae33b78c5cd78cd7c86d561e6b4c9ca3fc062f5796d4ef5ceb3de8c72291d3679d20b74407ddc46fa39d0f67204d4bf66c1ef08158e1cbcc9575ba1e4f0252d6d5b962f28e93306bcfe455bd2985baa6ed4357d778212e6639d463afddcb06191ea9b8800aa31661c7d8308caa946b96125cc7d006c2e23382f68afac407615af2d1356dc1746969f7731f484c190b0953e9fac773ca2ac4a655ab045c90b08e3dd666123e62c4416a7d192b09082dd7014e97896bb5a3b9e59f59f3ec236ef2ddeb141be8bd902c0b8627898a20e23cf28d5a9e2fb59957dabba637203668272809f2dbdf4dd170b8c68c7b388311a6c7b7b3522a5e6ad0d0f3ac2e353cbb08043b9de80b70c387b15b8ea3596378024c7d11d551c7ab189b7add982618f02e447aad8d8d9ebe7de9713d9770c9d158153397dfe8640d625d764d18abba5600daa358387e3b979d146a8d664247761e4a2931dd490e5e18d4a93086fc4bf2986a56023fe2ab2f0163ebb4c0fdd7051258330c7039a37e1c13e0d2ca2a6ff4210b35fd9bc18b0f4dae961f6f11203c01111e664ec94f0b42e0698b382e1185bf82ff5d6b7871898dd570cb353dd97679beb0b88512c6fc7da6e91b2a1e082ef6016ac06b8d17e6117d65a636a3f8f6fc07da7b8fe0b0c426abc781c420fa561058cc1c71d83d9f5c1a4fbe36c5257c14d1044e642a5ff2f20832165e4ff9ecb46b1ff8bab792a1a8f6d20f1ce02e653d6f28f35e18a83b141be36f1292a4841ca64326798f33facf84e2d7d83a6ae93ab444debb3e536cbcb75bc016f8a055f7407402f62377ded01e07d05fe92c13dcec0bfe977c49e4d62c76d187244c921d0cf68e1ffe1b8b0201726b5d0831252412a6cb6f9088b387d3b55b965f5895e5fb111dcf3260b12ee8c35294d25898e8fa3b46dee2252c39a7ecd04ecefb8551414a3cdad94c4037e6dc1b5c4c4abf3192328a733df030bd6c3142d9c93f91fd51f2d82b323e25694ffd593356cf672cd81020397db6aedc5c17b6592200b5d34a84d5f85fd3b026bf3135dfe17cbdab72fe2e27f9627c407d9ef0b398bd4781926520f63151739b303b1a919715f6f3cc52582ab8d43be0957f9a04422e66ae5d62931dc81d9c2fb62520dc73873b89c6c2c8399b281ea469b25b16ab1ca92d1c90c3117bd46401e66a9848da0cf1f925dd5e8c49bfaa0ebdacf145fa591def012390fec3044490d6a95df5c099501e6439eea2c477181ec7ba54d506ee540f5fcf01e48b32e9bb572eab67f73c5b4aea49b677720c123e5faa922b07e777c45ced22eb17eaac66ea0169adf2600933fd06125c4ba25e6a68665ba07f99fca051523a315c36eaad27d02e91f97ba2cbfa1fa44868116f62dd011e0751d3b94bd84de868bafb4f5fbe655c8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">输入密码！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>study-1</title>
+    <url>/2023-05-07-study-1/</url>
+    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="栈，队列，数组"><a href="#栈，队列，数组" class="headerlink" title="栈，队列，数组"></a>栈，队列，数组</h2><h3 id="栈"><a href="#栈" class="headerlink" title="栈"></a>栈</h3><h4 id="栈的的基本概念"><a href="#栈的的基本概念" class="headerlink" title="栈的的基本概念"></a>栈的的基本概念</h4><ul>
+    <li>栈
+        <ul>
+            <li>逻辑结构是线性结构中的 <em style="color:#ff7675">线性表</em>，并且还是<em style="color:#ff7675">操作受限的线性表。</em>
+            </li>
+            <li>存储结构（物理存储）有两种，根据存储结构的不同，分为<em style="color:#ff7675">顺序栈</em> 和 <em style="color:#ff7675">链栈。</em>
+                <ul>
+                    <li>顺序栈的存储结构为 <em style="color:#ff7675">顺序存储。</em></li>
+                    <li>链栈的存储结构为 <em style="color:#ff7675">链式存储。</em></li>
+                </ul>
+            </li>
+            <li>运算：只允许在一端进行 <em style="color:#ff7675">插入</em>或者<em style="color:#ff7675">删除</em> 操作。分别称为进栈和出栈操作</li>
+        </ul>
+    </li>
+</ul>
+特点:<font style="color:#ff7675">后进先出LIFO（Last In First Out）</font>
+
+<h4 id="顺序栈的实现"><a href="#顺序栈的实现" class="headerlink" title="顺序栈的实现"></a>顺序栈的实现</h4><h5 id="顺序栈的顺序存储类型"><a href="#顺序栈的顺序存储类型" class="headerlink" title="顺序栈的顺序存储类型"></a>顺序栈的顺序存储类型</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span> MaxSize 10</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>&#123;</span></span><br><span class="line">    Elemtype data[MaxSize];</span><br><span class="line">    <span class="type">int</span> top;</span><br><span class="line">&#125; SqStack;</span><br></pre></td></tr></table></figure>
+
+<h5 id="顺序栈的初始化"><a href="#顺序栈的初始化" class="headerlink" title="顺序栈的初始化"></a>顺序栈的初始化</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">InitStack</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    S.top=<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="判断栈空"><a href="#判断栈空" class="headerlink" title="判断栈空"></a>判断栈空</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">StackEmpty</span><span class="params">( Sqstack &amp;S )</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="进栈"><a href="#进栈" class="headerlink" title="进栈"></a>进栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">Push</span><span class="params">( Sqstack &amp;S, ElemType x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    S.top[++S.top]=x;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="出栈"><a href="#出栈" class="headerlink" title="出栈"></a>出栈</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">PoP</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=MaxSize<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.top[S.top--];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="读取栈顶元素"><a href="#读取栈顶元素" class="headerlink" title="读取栈顶元素"></a>读取栈顶元素</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">GetTop</span><span class="params">( Sqstack &amp;S, ElemType &amp;x)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(S.top=<span class="number">-1</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    x=S.date[S.top];</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="共享栈"><a href="#共享栈" class="headerlink" title="共享栈"></a>共享栈</h5><p>利用栈底位置相对不变的特性，让两个栈分别设置在共享位置的两端，两个栈向共享空间的中间延伸。</p>
+<p>两个栈的栈顶指针都指向栈顶元素，  表示0号栈为空， <em style="color:#ff7675">S.top1&#x3D;MaxSize</em> 表示1号栈为空，仅当两个栈顶元素相邻(<em style="color:#ff7675">top1-top0&#x3D;1</em>),判断栈满。</p>
+<p>共享栈是为了更为有效地利用存储空间，两个栈相互调节，只有这整个存储空间占满时才发生上溢。</p>
+<h4 id="链栈的实现"><a href="#链栈的实现" class="headerlink" title="链栈的实现"></a>链栈的实现</h4><p>采用链式存储的栈称为链栈，链栈的优点是便于多个栈共享存储空间和提高其效率，且不存在栈满上限的情况</p>
+<h5 id="链栈的链式存储结构"><a href="#链栈的链式存储结构" class="headerlink" title="链栈的链式存储结构"></a>链栈的链式存储结构</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span>&#123;</span></span><br><span class="line">    ElemType data;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Linknode</span> *<span class="title">node</span>;</span></span><br><span class="line">&#125; *ListStack;</span><br></pre></td></tr></table></figure>
+
+<p>采用链式存储，便于结点的插入与删除。链栈的操作与链表相同，入栈和出栈的操作都在链表的表头进行。</p>
+<h3 id="队列"><a href="#队列" class="headerlink" title="队列"></a>队列</h3><ul>
+<li><p>队列</p>
+<ul>
+<li><p>逻辑结构是线性结构中的<font style="color:#ff7675">线性表</font>，<font style="color:#ff7675">操作受限的线性表</font></p>
+</li>
+<li><p>存储结构（物理结构）有为两种，根据存储结构的不同，分为<font style="color:#ff7675">顺序存储</font>和<font style="color:#ff7675">链式存储</font></p>
+<ul>
+<li>其中使用链式存储的队列，称为<font style="color:#ff7675">链队列</font></li>
+</ul>
+</li>
+<li><p>运算：只允许在表的一端进行插入，另一端进行删除</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
 </search>
